@@ -163,6 +163,12 @@ promise.then(
   error => alert(error) // doesn't run
 );
 ```
+Alternatively:
+```
+promise
+    .then ( result => alert(result))   // shows "done!" after 1 second
+    .catch( error  => alert(error));    // doesn't run
+```
 
 The first function was executed.
 
